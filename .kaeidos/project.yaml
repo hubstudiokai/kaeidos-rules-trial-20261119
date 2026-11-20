@@ -1,0 +1,15 @@
+version: 1
+environment: .devcontainer/devcontainer.json
+components:
+  - name: web
+    path: .
+    setup: npm ci
+    build: npm run build
+    test: npm test
+    lint: npm run lint
+    start: npm run dev -- --host 0.0.0.0 --port 5173
+    preview:
+      type: web
+      port: 5173
+      healthPath: /
+      reload: self

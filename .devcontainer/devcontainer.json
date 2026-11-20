@@ -1,0 +1,6 @@
+{
+  "name": "web",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24@sha256:375f1ba34dab874ae487acb0b2bb3e9fd1b67fe3ea6e80c16e35713487f47c6a",
+  "remoteUser": "node",
+  "forwardPorts": [5173]
+}
